@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="comsorry.sosorry.HomeActivity">
+    <item
+        android:id="@+id/menu_rate_us"
+        android:orderInCategory="102"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_rateus"
+        android:title="@string/rateUs">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="@string/morebydeveloper"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_more"
+
+        />
+</menu>
